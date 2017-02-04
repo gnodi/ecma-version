@@ -1,7 +1,7 @@
 {
   "name": "@gnodi/ecma-version",
   "description": "Need a package to get the ECMAScript version of a browser? You found it!",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Thomas Prelot <tprelot@gmail.com> (https://github.com/Gnucki)",
   "contributors": [],
   "keywords": [
