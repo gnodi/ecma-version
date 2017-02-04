@@ -1,0 +1,45 @@
+{
+  "name": "@gnodi/ecma-version",
+  "description": "Need a package to get the ECMAScript version of a browser? You found it!",
+  "version": "0.0.0",
+  "author": "Thomas Prelot <tprelot@gmail.com> (https://github.com/Gnucki)",
+  "contributors": [],
+  "keywords": [
+    "gnodi",
+    "lib",
+    "ecma-version",
+    "browser",
+    "user-agent",
+    "ecmascript",
+    "javascript",
+    "es5",
+    "es6",
+    "version"
+  ],
+  "dependencies": {
+    "ua-parser-js": "^0.7.12"
+  },
+  "devDependencies": {
+    "@gnodi/eslint-config": "^0.2.0",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.0",
+    "jasmine": "^2.5.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnodi/ecma-version"
+  },
+  "main": "index",
+  "scripts": {
+    "lint": "gnodi-lint",
+    "test": "NODE_ENV='test' jasmine test.js",
+    "test-coverage": "NODE_ENV='test' istanbul cover jasmine test.js",
+    "test-coveralls": "NODE_ENV='test' istanbul cover jasmine test.js && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+  },
+  "bin": {},
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
