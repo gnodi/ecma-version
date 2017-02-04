@@ -1,5 +1,7 @@
 # @gnodi/ecma-version
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gnodi/ecma-version.svg)](https://greenkeeper.io/)
+
 [Node.js] Need a package to get the ECMAScript version of a browser? You found it!
 
 [![Build][build-image]][build-url]
