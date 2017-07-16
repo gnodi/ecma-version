@@ -20,7 +20,7 @@
     "ua-parser-js": "^0.7.12"
   },
   "devDependencies": {
-    "@gnodi/eslint-config": "^0.2.0",
+    "@gnodi/eslint-config": "^0.4.0",
     "coveralls": "^2.11.15",
     "istanbul": "^0.4.0",
     "jasmine": "^2.5.2"
